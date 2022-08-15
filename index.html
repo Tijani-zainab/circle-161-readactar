@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#003249">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redactr</title>
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body id="page-one">
+  <nav class="redactr-logo">
+    <h1>Redactr</h1>
+  </nav>
+  <main>
+    <div class="redactr-content">
+      <span class="content-area">
+        <form>
+          <div>
+            <label for='textarea'>Type text</label>
+            <br>
+            <textarea id="message" placeholder="type your text here"></textarea>
+          </div>
+          <div class="WordsToRedact">
+            <label for='text-input'>Word(s) to redact</label>
+            <br>
+            <input id="message-tohide" type='text' class="redactr-input" placeholder="Word(s) to Redact ...">
+          </div>
+          <br>
+
+          <div class="redact-btn--cont">
+
+            <a id="redact-btn" class="redact-btn-link" href="redacted.html">
+              <div class="redact-btn">
+                <i class="fa fa-star">Redact</i>
+              </div>
+
+            </a>
+
+          </div>
+        </form>
+      </span>
+      <span class="specify-area">
+        <form>
+          <label for='character'>Specify characters(default &...)</label>
+          <br>
+          <input id="custom-replace" type='text' class="character-input" placeholder="eg.***">
+
+        </form>
+      </span>
+    </div>
+  </main>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>
