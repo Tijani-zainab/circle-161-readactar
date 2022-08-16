@@ -16,7 +16,7 @@ body {
  /* margin: auto; */
  background: var(--background-color);
  color: var(--font-color);
- padding-bottom: 21px;
+ padding-bottom: 20px;
  height: fit-content;
  /* padding: 79px 90px 0px 90px; */
 
@@ -270,7 +270,7 @@ body {
   background: var(--background-color);
   font-family: var(--font-style);
   color: var(--font-color);
-  padding: 10px 20px;
+  padding: 10px 30px;
  }
 
 .redactr-logo h1, .logo-redacted h1 {
@@ -285,30 +285,22 @@ body {
  .content-area{
   width:100%;
   display:inline;
-/*   padding: 0 20px; */
  }
 
  .redactr-content {
-/*  height:70px; */
    width:100%;
   display: block;
-/*    padding: 0 20px; */
  }
 
  textarea {
   resize: none;
-/*   height: 300px; */
   width: 100%;
-/*   margin-left:10px; */
   border-radius: var(--border-radius);
  }  
 
  .redactr-input {
   border: 1px solid var(--border-color);
   width: 90%;
-/*   height: 40px; */
-/*   margin-bottom: 25px; */
-/*    padding: 20px 0; */
   border-radius: var(--border-radius);
  } 
 
@@ -339,7 +331,7 @@ body {
   border: 1px solid var(--border-color);
  width: 88%;
  position:relative;
- bottom:10px;
+ bottom: 0;
   height: 40px;
   border-radius: var(--border-radius);
  } 
@@ -347,6 +339,10 @@ body {
 label{
  font-size: 12px;
 } 
+
+.spec--label {
+  margin-top: 20px;
+}
 
 .WordsToRedact, .redact-btn--cont, .specify-area {
   margin-left: 10px;
@@ -370,7 +366,7 @@ button.CopyRedactedMessage{
 
 .fa {
   margin: 20px 10px;
-  padding: 14px ;
+  padding: 5px;
   font-size: 17px;
   border-radius: 50%;
 }
